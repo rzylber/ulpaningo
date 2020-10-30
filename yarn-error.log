@@ -1,0 +1,86 @@
+Arguments: 
+  /home/ricardo/.nvm/versions/node/v12.18.3/bin/node /home/ricardo/.yarn/bin/yarn.js
+
+PATH: 
+  /home/ricardo/.nix-profile/bin:/home/ricardo/.yarn/bin:/home/ricardo/.config/yarn/global/node_modules/.bin:/home/ricardo/.nvm/versions/node/v12.18.3/bin:/home/ricardo/bin:/usr/local/bin:/home/ricardo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ricardo/.fzf/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ricardo/projetos/ulpan/DEV/ulpaningo/package.json: Unexpected token } in JSON at position 1101
+      at JSON.parse (<anonymous>)
+      at /home/ricardo/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/ricardo/.yarn/lib/cli.js:310:30)
+      at /home/ricardo/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "dorothy-ready",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "axios": "^0.19.0",
+      "body-parser": "^1.19.0",
+      "classnames": "^2.2.6",
+      "cors": "^2.8.5",
+      "dotenv": "^8.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "moment": "^2.24.0",
+      "moment-timezone": "^0.5.31",
+      "multer": "^1.4.2",
+      "pg": "^7.17.0",
+      "pg-hstore": "^2.3.3",
+      "prop-types": "^15.7.2",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-router-dom": "^5.1.2",
+      "react-scripts": "^3.4.0",
+      "sequelize": "^5.21.3",
+      "styled-components": "^5.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    },
+    "scripts": {
+      "frontend": "react-scripts start",
+      "build": "react-scripts build",
+      "start": "node server/index",
+      "dev": "nodemon --config nodemon.json",
+      "dev-dorothy": "nodemon --config nodemon-dorothy.json",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

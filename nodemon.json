@@ -1,0 +1,8 @@
+{
+    "watch": [
+        "server"
+    ],
+    "execMap": {
+      "js": "node server/index"
+    }
+  }
